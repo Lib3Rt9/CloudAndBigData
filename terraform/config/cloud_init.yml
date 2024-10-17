@@ -1,0 +1,16 @@
+#cloud-config
+# examples:
+# https://cloudinit.readthedocs.io/en/latest/topics/examples.html
+ssh_pwauth: false
+disable_root: false
+users:
+  - name: ubuntu
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    home: /home/ubuntu
+    shell: /bin/bash
+    lock_passwd: false
+    ssh-authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJlT2pZTIXtfHjneoQUZ/j+0cx6Tr1QillUnAEciLR/4 dung@192.168.1.8
+final_message: "The system is up after $UPTIME seconds"
+
