@@ -3,7 +3,7 @@ provider "libvirt" {
 }
 
 resource "libvirt_pool" "ubuntu" {
-  name = "ubuntu"
+  name = "ubuntu2"
   type = "dir"
   path = var.libvirt_disk_path
 }
