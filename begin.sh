@@ -12,6 +12,6 @@ echo ""
 echo " XD __ (assuming there exists already a file.jar, knowing it's class name) __ XD"
 echo ""
 
-sleep 10
+sleep 20
 bash start.sh 2 ./examples/wc.jar ./examples/filesample.txt WordCount
 
