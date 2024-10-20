@@ -12,17 +12,13 @@ Group members:
   - Nguyen Tu Tung
 
 
-### Quick guide
-```shell
-# install
-bash scripts/install.sh
+## Quick guide
+(Make sure you are logging in with username "ubuntu")
 
-# spin up instances
-cd terraform/
-terraform init
-terraform plan
-terraform apply -auto-approve
+Step 1: Open Terminal
 
-# Get instance ips
-terraform output -json ips
-```
+Step 2: Navigate to directory CloudAndBigData/
+
+Step 3: Type in the terminal: `sh begin.sh`
+
+Step4: Enjoy!

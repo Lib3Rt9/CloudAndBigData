@@ -1,12 +1,3 @@
 ---
 - name: Start Spark
-  command: bash -c "chmod +x /home/ubuntu/install/start.sh"
-# - name: 00
-  # command: bash -c ""
-- name: 1
-  command: bash -c "source /home/ubuntu/.bashrc"
-- name: 2
-  command: bash -c "bash /home/ubuntu/install/start.sh"
-  # shell: "bash /home/ubuntu/install/start.sh"
-  # args:
-  #   executable: /bin/bash
+  shell: bash -ilc 'cd /home/ubuntu/install && bash start.sh'
