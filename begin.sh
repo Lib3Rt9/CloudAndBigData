@@ -7,7 +7,7 @@ echo ""
 
 echo "To try another configuration, please either modify 'begin.sh' or directly run the command with this format:"
 echo ""
-echo "    ' bash start.sh [# of slave(s)] path/to/file.jar path/to/file_data jar_class_name '     "
+echo "    ' bash start.sh [# of slave(s)] path/to/file.jar path/to/file_data.txt jar_class_name '     "
 echo ""
 echo " XD __ (assuming there exists already a file.jar, knowing it's class name) __ XD"
 echo ""
