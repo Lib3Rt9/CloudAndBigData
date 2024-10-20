@@ -21,4 +21,6 @@ Step 2: Navigate to directory CloudAndBigData/
 
 Step 3: Type in the terminal: `sh begin.sh`
 
-Step4: Enjoy!
+Step 4: Enjoy!
+
+Have fun!! XD
