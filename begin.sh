@@ -1,5 +1,5 @@
 echo "_______________________ Word Count example _______________________"
-echo "with 1 master and 2 slaves"
+echo "with 1 master (VM) and 2 slaves (VM)"
 echo ""
 
 echo "Be flexible! XD"
