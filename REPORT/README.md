@@ -11,4 +11,4 @@ Group members:
 Please find the demonstration video in ' cloud_bigdata_report.pdf '
 or via this link:
 
- - **[Demonstration video]([https://github.com/teabetab/CoursCloudN7](https://drive.google.com/drive/folders/1BraaCsrYe4OM4E_PID_7c6j7Q6bSh4RE?usp=sharing)**
+  **[Demonstration video](https://drive.google.com/drive/folders/1BraaCsrYe4OM4E_PID_7c6j7Q6bSh4RE?usp=sharing)**
